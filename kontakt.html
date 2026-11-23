@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt & Reservierung – Lindenhof Pankow</title>
+<meta name="description" content="Tisch reservieren im Lindenhof: Adresse, Öffnungszeiten, Telefonnummer und Online-Reservierung für das Restaurant in Berlin-Pankow.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand"><span class="leaf">❧</span> Lindenhof</a>
+    <nav class="nav">
+      <a href="index.html">Startseite</a>
+      <a href="speisekarte.html">Speisekarte</a>
+      <a href="ueber-uns.html">Über uns</a>
+      <a href="kontakt.html" aria-current="page">Kontakt</a>
+    </nav>
+    <a href="kontakt.html" class="btn btn-primary">Tisch reservieren</a>
+    <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false"><span></span></button>
+  </div>
+</header>
+
+<div class="page-head">
+  <div class="wrap">
+    <span class="eyebrow-dark">Besuchen Sie uns</span>
+    <h1>Kontakt &amp; Reservierung</h1>
+    <p>Rufen Sie an, schreiben Sie uns, oder reservieren Sie direkt online – wir melden uns innerhalb eines Werktags zurück.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap contact-grid">
+    <div>
+      <h2 style="margin-bottom:28px;">So erreichen Sie uns</h2>
+      <div class="info-list">
+        <div class="info-item">
+          <div class="ic">📍</div>
+          <div><h4>Adresse</h4><p>Grabbeallee 58, 13088 Berlin<br>(Grenze Pankow / Niederschönhausen)</p></div>
+        </div>
+        <div class="info-item">
+          <div class="ic">📞</div>
+          <div><h4>Telefon</h4><p>030 123 456 78</p></div>
+        </div>
+        <div class="info-item">
+          <div class="ic">✉️</div>
+          <div><h4>E-Mail</h4><p>tisch@lindenhof-pankow.de</p></div>
+        </div>
+      </div>
+
+      <h2 style="margin:36px 0 16px; font-size:22px;">Öffnungszeiten</h2>
+      <table class="hours-table">
+        <tr><td>Montag</td><td>Ruhetag</td></tr>
+        <tr><td>Dienstag – Freitag</td><td>17:00 – 23:00 Uhr</td></tr>
+        <tr><td>Samstag</td><td>12:00 – 23:00 Uhr</td></tr>
+        <tr><td>Sonntag</td><td>12:00 – 21:00 Uhr</td></tr>
+      </table>
+
+      <div class="map-placeholder" style="margin-top:32px;">
+        <span class="pin">📍</span>
+        <p style="margin:0;">Kartenansicht<br><span style="font-size:13px;">Grabbeallee 58, 13088 Berlin</span></p>
+      </div>
+    </div>
+
+    <div class="card" style="padding:36px;">
+      <h2 style="font-size:22px; margin-bottom:6px;">Tisch reservieren</h2>
+      <p style="color:var(--ink-soft); font-size:15px; margin-bottom:26px;">Für Gruppen ab 8 Personen rufen Sie uns bitte direkt an.</p>
+      <form class="reserve">
+        <div class="row2">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="phone">Telefon</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+        </div>
+        <div>
+          <label for="email">E-Mail</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="row2">
+          <div>
+            <label for="date">Datum</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+          <div>
+            <label for="time">Uhrzeit</label>
+            <input type="time" id="time" name="time" required>
+          </div>
+        </div>
+        <div>
+          <label for="guests">Anzahl Personen</label>
+          <select id="guests" name="guests">
+            <option>1 Person</option>
+            <option selected>2 Personen</option>
+            <option>3 Personen</option>
+            <option>4 Personen</option>
+            <option>5 Personen</option>
+            <option>6 Personen</option>
+            <option>7 Personen</option>
+          </select>
+        </div>
+        <div>
+          <label for="notes">Anmerkungen (optional)</label>
+          <textarea id="notes" name="notes" placeholder="z. B. Allergien, besondere Anlässe …"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="justify-content:center; margin-top:4px;">Reservierung anfragen</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>Lindenhof</h4>
+        <p>Gutbürgerliche Küche mit regionalen Zutaten, mitten in Berlin-Pankow an der Grenze zu Niederschönhausen.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Startseite</a></li>
+          <li><a href="speisekarte.html">Speisekarte</a></li>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li>Grabbeallee 58, 13088 Berlin</li>
+          <li>030 123 456 78</li>
+          <li>tisch@lindenhof-pankow.de</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Restaurant Lindenhof</span>
+      <span class="tag">Beispiel-Website · erstellt zur Veranschaulichung</span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
